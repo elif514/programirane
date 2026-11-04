@@ -1,0 +1,23 @@
+
+            //4
+            string cleanText = "Ucha C# i programiram s C#.";
+            bool containsCSharp = cleanText.Contains("C#");
+            bool containsPython = cleanText.Contains("Python");
+            bool containsCsharpLower = cleanText.Contains("c#");
+
+            Console.WriteLine(containsCSharp);       
+            Console.WriteLine(containsPython);      
+            Console.WriteLine(containsCsharpLower);  
+
+              
+
+
+
+            //5
+            bool startsWithUcha = cleanText.StartsWith("Уча"); 
+            bool endsWithDot = cleanText.EndsWith(".");
+            bool endsWithCSharp = cleanText.EndsWith("C#");
+
+            Console.WriteLine(startsWithUcha);    
+            Console.WriteLine(endsWithDot);       
+            Console.WriteLine(endsWithCSharp);    
